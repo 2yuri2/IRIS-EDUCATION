@@ -13,7 +13,7 @@
 
 <div class="SECTION_ONE_INTRODUCTORY">
 <h1>
-    MODULE 3
+    MODULE 6
 </h1>
 
 <P>
@@ -50,138 +50,206 @@
 <script>
    const quizData = [
         {
-            question: "This type of control structure executes specific blocks of code a number of times.",
-            // image: "QUESTION IMAGE",
+            question: "A syntax error occurs when",
             options: [
-                "Decision Control Structure",
-                "Iterative Control Structure",
-                "Sequential Control Structure",
-                "None of the above"
+                "The program runs too slowly",
+                "The grammar rules of the language are violated",
+                "A wrong output is produced",
+                "The computer crashes"
             ],
             correct: 1
         },
         {
-            question: "Which of these are NOT a component of a loop?",
-            // image: "QUESTION IMAGE",
+            question: "A runtime error occurs",
             options: [
-                "Change of State",
-                "Body of the Loop",
-                "Condition",
-                "None of the above"
+                "During compilation",
+                "When the program is being typed",
+                "During program execution",
+                "After the program finishes"
+            ],
+            correct: 2
+        },
+        {
+            question: "A logical error results in",
+            options: [
+                "Program crash",
+                "Incorrect output",
+                "Compilation failure",
+                "Hardware malfunction"
+            ],
+            correct: 1
+        },
+        {
+            question: "Dividing a number by zero causes",
+            options: [
+                "Syntax error",
+                "Logical error",
+                "ArithmeticException",
+                "IOException"
+            ],
+            correct: 2
+        },
+        {
+            question: "A try block contains",
+            options: [
+                "Code that handles errors",
+                "Code assumed to run normally",
+                "Variable declarations only",
+                "Only input statements"
+            ],
+            correct: 1
+        },
+        {
+            question: "A catch block is used to",
+            options: [
+                "End the program",
+                "Declare variables",
+                "Handle exceptions",
+                "Optimize memory"
+            ],
+            correct: 2
+        },
+        {
+            question: "An exception is",
+            options: [
+                "A loop",
+                "An object representing an error",
+                "A class variable",
+                "A file"
+            ],
+            correct: 1
+        },
+        {
+            question: "If an exception is not handled",
+            options: [
+                "The program continues normally",
+                "The program terminates abnormally",
+                "The program compiles again",
+                "The IDE auto-corrects it"
+            ],
+            correct: 1
+        },
+        {
+            question: "ArithmeticException belongs to",
+            options: [
+                "Error class",
+                "RuntimeException class",
+                "IOException class",
+                "String class"
+            ],
+            correct: 1
+        },
+        {
+            question: "A custom exception class is created by",
+            options: [
+                "Implementing Runnable",
+                "Extending java.lang.Exception",
+                "Extending Object",
+                "Importing java.error"
+            ],
+            correct: 1
+        },
+        {
+            question: "throw keyword",
+            options: [
+                "Declares an exception",
+                "Creates and triggers an exception",
+                "Ends the program",
+                "Imports libraries"
+            ],
+            correct: 1
+        },
+        {
+            question: "throws keyword",
+            options: [
+                "Handles the exception",
+                "Declares that a method may throw an exception",
+                "Deletes variables",
+                "Breaks the program"
+            ],
+            correct: 1
+        },
+        {
+            question: "finally block executes",
+            options: [
+                "Only when there is no error",
+                "Only when there is an error",
+                "Only when the program returns a value",
+                "Always, regardless of errors"
             ],
             correct: 3
         },
         {
-            question: "What does the Compound Assignment Operator, x += y, do?",
-            // image: "QUESTION IMAGE",
+            question: "print debugging means",
             options: [
-                "Only adds x with y",
-                "Adds x and y and assigns to y",
-                "Adds x and y and assigns to x",
-                "Invalid syntax"
+                "Removing print statements",
+                "Adding print statements to trace program flow",
+                "Compiling repeatedly",
+                "Disabling errors"
+            ],
+            correct: 1
+        },
+        {
+            question: "Step-through debugging is done by",
+            options: [
+                "Running the entire program instantly",
+                "Executing lines one-by-one",
+                "Adding more classes",
+                "Using only print statements"
+            ],
+            correct: 1
+        },
+        {
+            question: "Breakpoints are used to",
+            options: [
+                "Add comments",
+                "Stop the program at a specific line",
+                "Edit code faster",
+                "Change memory settings"
+            ],
+            correct: 1
+        },
+        {
+            question: "System errors belong to",
+            options: [
+                "Exception class",
+                "RuntimeException class",
+                "Error class",
+                "IO class"
             ],
             correct: 2
         },
         {
-            question: "Which of the following are NOT a type of Iterative Structure in Java?",
-            // image: "QUESTION IMAGE",
+            question: "Accessing an out-of-bounds index causes",
             options: [
-                "for Loop",
-                "while Loop",
-                "do-while Loop",
-                "for-else Loop"
+                "NullPointerException",
+                "ArrayIndexOutOfBoundsException",
+                "IOException",
+                "IllegalStateException"
             ],
-            correct: 3
-        },
-        {
-            image: "M3Q5.png",
-            options: ["9", "12", "10", "11"],
-            correct: 2
-        },
-        {
-            image: "M3Q6.png",
-            options: ["hello\" will be printed once", "hello\" will be printed infinitely", "hello\" will be printed 100 times", "hello\" won't be printed"],
             correct: 1
         },
         {
-            image: "M3Q7.png",
-            options: ["hello\" will be printed once", "hello\" will be printed infinitely", "hello\" will be printed 100 times", "hello\" won't be printed"],
-            correct: 1
-        },
-        {
-            image: "M3Q8.png",
-            options: ["hello\" will be printed once", "hello\" will be printed infinitely", "hello\" will be printed 100 times", "hello\" won't be printed"],
-            correct: 0
-        },
-        {
-            image: "M3Q9.png",
-            options: ["0123456789", "12345678910", "12345678910", "invalid syntax"],
-            correct: 0
-        },
-        {
-            question: "This is used to skip the current iteration and move to the next one",
-            // image: "QUESTION IMAGE",
-            options: ["return", "break", "continue", "None of the above"],
-            correct: 2
-        },
-        {
-            question: "This is used to terminate a loop prematurely",
-            // image: "QUESTION IMAGE",
-            options: ["return", "break", "continue", "None of the above"],
-            correct: 1
-        },
-        {
-            image: "M3Q12.png",
-            options: ["HELLO\" will be printed once", "HELLO\" will be printed infinitely", "HELLO\" will be printed 50 times", "HELLO\" won't be printed"],
-            correct: 2
-        },
-        {
-            image: "M3Q13.png",
-            options: ["Prints even numbers", "Prints odd numbers", "Prints nothing", "Invalid syntax"],
-            correct: 3
-        },
-        {
-            question: "What is NOT a common use case of loops?",
-            // image: "QUESTION IMAGE",
-            options: ["Data processing", "Key generation", "Input validation", "Nested loops"],
-            correct: 1
-        },
-        {
-            image: "M3Q15.png",
-            options: ["0 1 2 3 4", "1 2 3 4 5", "0 1 2 3 4 5", "1 2 3 4 5 6"],
-            correct: 0
-        },
-        {
-            image: "M3Q16.png",
-            options: ["5 4 3 2 1", "5 3 1", "5 3", "Infinite loop"],
-            correct: 1
-        },
-        {
-            image: "M3Q17.png",
-            options: ["11", "9", "10", "Infinite"],
-            correct: 2
-        },
-        {
-            question: "Which of the following produces an infinite loop?",
-            // image: "QUESTION IMAGE",
+            question: "Incorrect variable names like “2num” cause",
             options: [
-                "for (int i = 0; i < 5; i++)",
-                "while (false)",
-                "do {} while (false)",
-                "while (1 == 1)"
+                "Logical errors",
+                "Syntax errors",
+                "Runtime errors",
+                "No errors"
             ],
-            correct: 3
-        },
-        {
-            image: "M3Q19.png",
-            options: ["1 2 3 4 5", "1 2 3 4", "12", "2 3 4 5"],
             correct: 1
         },
         {
-            image: "M3Q20.png",
-            options: ["12345", "1234", "123", "12"],
-            correct: 1
-        },
+            question: "Replacing division with multiplication in code is a",
+            options: [
+                "Syntax error",
+                "Runtime error",
+                "Logical error",
+                "Compiler error"
+            ],
+            correct: 2
+        }
+
 
     ];
 

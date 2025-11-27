@@ -31,7 +31,7 @@
         <!-- PUT YOUR IMAGE QUESTION HERE -->
 
             <!-- IMAGE 1 -->
-            <img id="questionImage" class="question-image" src="#" alt="Question Image 1" style="display: none; max-width: 50%; height: auto; text-align: center;">
+            <img id="questionImage" class="question-image" src="#" alt="Question Image 1" style="display: none; max-width: 100%; height: auto; text-align: center;">
             
             <!-- IMAGE 2 -->
             <img id="questionImage" class="question-image" src="#" alt="Question Image 2" style="display: none; max-width: 100%; height: auto;">
@@ -49,18 +49,137 @@
 
 <script>
    const quizData = [
-        { 
-            question: "PUT YOUR QUESTION HERE", 
-            image: "QUESTION IMAGE 1", 
-            options: ["OPTION 1", "OPTION 2", "OPTION 3", "OPTION 4"], 
-            correct: 1 
+        {
+            question: "Give the output.\ntrue != true",
+            // image: "QUESTION IMAGE",
+            options: ["true", "false", "Syntax error", "Not of the above"],
+            correct: 1
         },
-        { 
-            question: "PUT YOUR QUESTION HERE", 
-            image: "QUESTION IMAGE 2", 
-            options: ["OPTION 1", "OPTION 2", "OPTION 3", "OPTION 4"], 
-            correct: 0 
+        {
+            question: "Which is NOT a type of control structure in Java?",
+            // image: "QUESTION IMAGE",
+            options: [
+                "Sequential Control Structure",
+                "Repetition Control Structure",
+                "Decision Control Structure",
+                "Constant Control Structure"
+            ],
+            correct: 3
+        },
+        {
+            question: "Give the output.\ntrue && true",
+            // image: "QUESTION IMAGE",
+            options: ["true", "false", "Syntax error", "Not of the above"],
+            correct: 0
+        },
+        {
+            question: "Give the output.\ntrue || false",
+            // image: "QUESTION IMAGE",
+            options: ["true", "false", "Syntax error", "Not of the above"],
+            correct: 0
+        },
+        {
+            question: "Give the output.\nfalse ^ true",
+            // image: "QUESTION IMAGE",
+            options: ["true", "false", "Syntax error", "Not of the above"],
+            correct: 0
+        },
+        {
+            image: "M2Q6.png",
+            options: ["Fail", "Pass", "Syntax Error", "true"],
+            correct: 1
+        },
+        {
+            image: "M2Q7.png",
+            options: ["Failed", "Passed", "Syntax Error", "true"],
+            correct: 0
+        },
+        {
+            image: "M2Q8.png",
+            options: ["Fair: 16 Pesos.", "Fair: 15 Pesos.", "Fair: 17 Pesos.", "You don't have enough money."],
+            correct: 1
+        },
+        {
+            image: "M2Q9.png",
+            options: ["Your ordered fries.", "You ordered a burger.", "Please choose again.", "Syntax error"],
+            correct: 2
+        },
+        {
+            image: "M2Q10.png",
+            options: ["Weekday", "Midweek", "Weekend", "No output"],
+            correct: 1
+        },
+        {
+            question: "Statements that are organized in such a way that there should be a condition to be evaluated first.",
+            // image: "QUESTION IMAGE",
+            options: [
+                "Sequential Control Structure",
+                "Repetition Control Structure",
+                "Decision Control Structure",
+                "Constant Control Structure"
+            ],
+            correct: 2
+        },
+        {
+            question: "Organized such that statements are executed one after the other in the order of their appearance in the source code.",
+            // image: "QUESTION IMAGE",
+            options: [
+                "Sequential Control Structure",
+                "Repetition Control Structure",
+                "Decision Control Structure",
+                "Constant Control Structure"
+            ],
+            correct: 0
+        },
+        {
+            question: "Give the corresponding relational operators.\nEqual to",
+            // image: "QUESTION IMAGE",
+            options: ["==", "=", "!=", "=!"],
+            correct: 0
+        },
+        {
+            question: "Give the corresponding relational operators.\nNot Equal to",
+            // image: "QUESTION IMAGE",
+            options: ["==", "=", "!=", "=!"],
+            correct: 2
+        },
+        {
+            question: "Give the corresponding relational operators.\nGreater than or Equal to",
+            // image: "QUESTION IMAGE",
+            options: ["<=", "=>", ">=", "=<"],
+            correct: 2
+        },
+        {
+            question: "Give the corresponding relational operators.\nLess than or Equal to",
+            // image: "QUESTION IMAGE",
+            options: ["<=", "=>", ">=", "=<"],
+            correct: 0
+        },
+        {
+            question: "Give the corresponding relational operators.\nGreater than",
+            // image: "QUESTION IMAGE",
+            options: ["<!", ">", "!<", ">!"],
+            correct: 1
+        },
+        {
+            question: "Give the corresponding relational operators.\nLess than",
+            // image: "QUESTION IMAGE",
+            options: ["<!", "<", "!<", ">!"],
+            correct: 1
+        },
+        {
+            question: "Give the corresponding logical operators.\nLogical Or",
+            // image: "QUESTION IMAGE",
+            options: ["!", "|", "||", "^"],
+            correct: 2
+        },
+        {
+            question: "Give the corresponding logical operators.\nLogical And",
+            // image: "QUESTION IMAGE",
+            options: ["||", "&", "&&", "|"],
+            correct: 2
         }
+
     ];
 
     const livesEl = document.getElementById('lives');

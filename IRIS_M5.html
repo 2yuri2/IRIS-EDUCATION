@@ -13,7 +13,7 @@
 
 <div class="SECTION_ONE_INTRODUCTORY">
 <h1>
-    MODULE 3
+    MODULE 5
 </h1>
 
 <P>
@@ -50,139 +50,200 @@
 <script>
    const quizData = [
         {
-            question: "This type of control structure executes specific blocks of code a number of times.",
+            question: "This forms the backbone of programming and algorithms",
             // image: "QUESTION IMAGE",
             options: [
-                "Decision Control Structure",
-                "Iterative Control Structure",
-                "Sequential Control Structure",
+                "List Structures",
+                "Algorithms",
+                "Data Structures",
+                "Arrays"
+            ],
+            correct: 2
+        },
+        {
+            question: "This allows programmers to store, organize, and manipulate large amounts of data efficiently",
+            // image: "QUESTION IMAGE",
+            options: [
+                "Arrays",
+                "Variables",
+                "Data types",
+                "Algorithms"
+            ],
+            correct: 0
+        },
+        {
+            question: "Which of the following are NOT importances of an array?",
+            // image: "QUESTION IMAGE",
+            options: [
+                "Direct access to elements",
+                "Efficient data management",
+                "Memory efficiency",
                 "None of the above"
             ],
-            correct: 1
-        },
-        {
-            question: "Which of these are NOT a component of a loop?",
-            // image: "QUESTION IMAGE",
-            options: [
-                "Change of State",
-                "Body of the Loop",
-                "Condition",
-                "None of the above"
-            ],
             correct: 3
         },
         {
-            question: "What does the Compound Assignment Operator, x += y, do?",
+            question: "How many elements can this array hold?\n\tint[] data = new int[10];",
             // image: "QUESTION IMAGE",
-            options: [
-                "Only adds x with y",
-                "Adds x and y and assigns to y",
-                "Adds x and y and assigns to x",
-                "Invalid syntax"
-            ],
-            correct: 2
-        },
-        {
-            question: "Which of the following are NOT a type of Iterative Structure in Java?",
-            // image: "QUESTION IMAGE",
-            options: [
-                "for Loop",
-                "while Loop",
-                "do-while Loop",
-                "for-else Loop"
-            ],
-            correct: 3
-        },
-        {
-            image: "M3Q5.png",
-            options: ["9", "12", "10", "11"],
-            correct: 2
-        },
-        {
-            image: "M3Q6.png",
-            options: ["hello\" will be printed once", "hello\" will be printed infinitely", "hello\" will be printed 100 times", "hello\" won't be printed"],
+            options: ["9", "10", "11", "Invalid syntax"],
             correct: 1
         },
         {
-            image: "M3Q7.png",
-            options: ["hello\" will be printed once", "hello\" will be printed infinitely", "hello\" will be printed 100 times", "hello\" won't be printed"],
+            question: "Using the given array, what is at index 1?\nInt[] data = {10, 20, 30, 40, 50};",
+            // image: "QUESTION IMAGE",
+            options: ["10", "20", "30", "40"],
             correct: 1
         },
         {
-            image: "M3Q8.png",
-            options: ["hello\" will be printed once", "hello\" will be printed infinitely", "hello\" will be printed 100 times", "hello\" won't be printed"],
+            question: "Using the given array, what is the element at index [0][2]?\nString[][] students = {{Anna, Ynna, Ina}, {John, Jan, Johnny}, {Carl, Karla, Kael}};",
+            // image: "QUESTION IMAGE",
+            options: ["Anna", "Ynna", "Ina", "Index out of bounds error"],
+            correct: 2
+        },
+        {
+            question: "colors.length returns\n A. Total number of columns\n B. Total number of arrays inside\n C. Total number of characters\n D. Index of last element",
+            // image: "QUESTION IMAGE",
+            options: [
+                "Total number of columns",
+                "Total number of arrays inside",
+                "Total number of characters",
+                "Index of last element"
+            ],
+            correct: 1
+        },
+        {
+            question: "A two-dimensional array is\n A. A list of strings\n B. Arrays inside an array\n C. A dynamic list\n D. A single row of numbers",
+            // image: "QUESTION IMAGE",
+            options: [
+                "A list of strings",
+                "Arrays inside an array",
+                "A dynamic list",
+                "A single row of numbers"
+            ],
+            correct: 1
+        },
+        {
+            question: "String[][] names = new String[2][3] has\n A. 2 columns and 3 rows\n B. 2 rows and 3 columns\n C. 6 rows\n D. 6 columns",
+            // image: "QUESTION IMAGE",
+            options: [
+                "2 columns and 3 rows",
+                "2 rows and 3 columns",
+                "6 rows",
+                "6 columns"
+            ],
+            correct: 1
+        },
+        {
+            question: "students[1][2] accesses\n A. Row 2, Column 3\n B. Row 1, Column 2\n C. Row 3, Column 1\n D. Column 2, Row 1",
+            // image: "QUESTION IMAGE",
+            options: [
+                "Row 2, Column 3",
+                "Row 1, Column 2",
+                "Row 3, Column 1",
+                "Column 2, Row 1"
+            ],
             correct: 0
         },
         {
-            image: "M3Q9.png",
-            options: ["0123456789", "12345678910", "12345678910", "invalid syntax"],
-            correct: 0
-        },
-        {
-            question: "This is used to skip the current iteration and move to the next one",
-            // image: "QUESTION IMAGE",
-            options: ["return", "break", "continue", "None of the above"],
-            correct: 2
-        },
-        {
-            question: "This is used to terminate a loop prematurely",
-            // image: "QUESTION IMAGE",
-            options: ["return", "break", "continue", "None of the above"],
-            correct: 1
-        },
-        {
-            image: "M3Q12.png",
-            options: ["HELLO\" will be printed once", "HELLO\" will be printed infinitely", "HELLO\" will be printed 50 times", "HELLO\" won't be printed"],
-            correct: 2
-        },
-        {
-            image: "M3Q13.png",
-            options: ["Prints even numbers", "Prints odd numbers", "Prints nothing", "Invalid syntax"],
-            correct: 3
-        },
-        {
-            question: "What is NOT a common use case of loops?",
-            // image: "QUESTION IMAGE",
-            options: ["Data processing", "Key generation", "Input validation", "Nested loops"],
-            correct: 1
-        },
-        {
-            image: "M3Q15.png",
-            options: ["0 1 2 3 4", "1 2 3 4 5", "0 1 2 3 4 5", "1 2 3 4 5 6"],
-            correct: 0
-        },
-        {
-            image: "M3Q16.png",
-            options: ["5 4 3 2 1", "5 3 1", "5 3", "Infinite loop"],
-            correct: 1
-        },
-        {
-            image: "M3Q17.png",
-            options: ["11", "9", "10", "Infinite"],
-            correct: 2
-        },
-        {
-            question: "Which of the following produces an infinite loop?",
-            // image: "QUESTION IMAGE",
+            question: "A nested loop is needed to",
             options: [
-                "for (int i = 0; i < 5; i++)",
-                "while (false)",
-                "do {} while (false)",
-                "while (1 == 1)"
+                "Access a one-dimensional array",
+                "Modify integers",
+                "Access all elements of a 2D array",
+                "Print a single value"
             ],
-            correct: 3
+            correct: 2
         },
         {
-            image: "M3Q19.png",
-            options: ["1 2 3 4 5", "1 2 3 4", "12", "2 3 4 5"],
+            question: "int[] data = new int[5] creates",
+            options: [
+                "Five empty elements",
+                "No elements",
+                "Five elements with random values",
+                "An array that resizes automatically"
+            ],
+            correct: 0
+        },
+        {
+            question: "data[1] = 10 performs",
+            options: [
+                "Deletion",
+                "Index shift",
+                "Element modification",
+                "Array resizing"
+            ],
+            correct: 2
+        },
+        {
+            question: "In a 2D array, colors[i].length represents",
+            options: [
+                "Number of rows",
+                "Number of columns in row i",
+                "Total size of the array",
+                "Always equal for all rows"
+            ],
             correct: 1
         },
         {
-            image: "M3Q20.png",
-            options: ["12345", "1234", "123", "12"],
+            question: "Arrays are stored in",
+            options: [
+                "Random memory locations",
+                "Linked memory blocks",
+                "Contiguous memory locations",
+                "External devices"
+            ],
+            correct: 2
+        },
+        {
+            question: "Direct access means",
+            options: [
+                "Sequential search only",
+                "Accessing elements only from start",
+                "Access by specific index instantly",
+                "Printing elements only"
+            ],
+            correct: 2
+        },
+        {
+            question: "Image processing often uses",
+            options: [
+                "1D arrays",
+                "2D arrays",
+                "3D arrays",
+                "No arrays"
+            ],
+            correct: 2
+        },
+        {
+            question: "int[][] a = {{1,2},{3,4,5}} shows",
+            options: [
+                "All rows must be equal in length",
+                "Rows may have different lengths",
+                "Compilation error",
+                "Only one row allowed"
+            ],
             correct: 1
         },
-
+        {
+            question: "Arrays are used to implement",
+            options: [
+                "Only variables",
+                "Complex data structures",
+                "Only output devices",
+                "Only string storage"
+            ],
+            correct: 1
+        },
+        {
+            question: "The inner loop of a 2D array traversal handles",
+            options: [
+                "Rows",
+                "Columns",
+                "Full array length",
+                "Memory allocation"
+            ],
+            correct: 1
+        },
     ];
 
     const livesEl = document.getElementById('lives');

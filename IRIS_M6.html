@@ -13,7 +13,7 @@
 
 <div class="SECTION_ONE_INTRODUCTORY">
 <h1>
-    MODULE 3
+    MODULE 6
 </h1>
 
 <P>
@@ -50,137 +50,209 @@
 <script>
    const quizData = [
         {
-            question: "This type of control structure executes specific blocks of code a number of times.",
-            // image: "QUESTION IMAGE",
+            question: "A data structure that holds an ordered collections of elements, allowing for dynamic resizing and flexible data management.",
             options: [
-                "Decision Control Structure",
-                "Iterative Control Structure",
-                "Sequential Control Structure",
+                "Array",
+                "ArrayList",
+                "List",
+                "List Structure"
+            ],
+            correct: 3
+        },
+        {
+            question: "A resizable array and can store unlimited objects.",
+            options: [
+                "Array",
+                "ArrayList",
+                "List",
+                "List Structure"
+            ],
+            correct: 1
+        },
+        {
+            question: "A linear data structure that consists of a sequence of elements, called nodes, where each node contains Data and Pointer (Reference).",
+            options: [
+                "Array",
+                "ArrayList",
+                "LinkedList",
+                "List"
+            ],
+            correct: 2
+        },
+        {
+            question: "A list method that removes an element.",
+            options: [
+                "remove(<index>/<object>)",
+                "clear()",
+                "clear",
+                "set()"
+            ],
+            correct: 0
+        },
+        {
+            question: "Array = fixed-size; List = ________",
+            options: [
+                "short size",
+                "long size",
+                "dynamic size",
+                "limited size"
+            ],
+            correct: 2
+        },
+        {
+            question: "Array = ______; List = Multiple data type",
+            options: [
+                "Fast access data type",
+                "2 data type",
+                "Single data type",
+                "No data type"
+            ],
+            correct: 2
+        },
+        {
+            question: "A Single Linked List is?",
+            options: [
+                "One-way traversal",
+                "Two-way traversal",
+                "No traversal",
+                "None of the above"
+            ],
+            correct: 0
+        },
+        {
+            question: "A Single Linked List node stores the address of?",
+            options: [
+                "no node",
+                "next node",
+                "previous node",
+                "next and previous node"
+            ],
+            correct: 1
+        },
+        {
+            question: "A Double Linked List node stores the address of?",
+            options: [
+                "no node",
+                "next node",
+                "previous node",
+                "next and previous node"
+            ],
+            correct: 3
+        },
+        {
+            question: "On a Singular Linked List, the last node points to:",
+            options: [
+                "previous node",
+                "back to the first node",
+                "null",
+                "next node"
+            ],
+            correct: 2
+        },
+        {
+            question: "On a Circular Linked List, the last node points to:",
+            options: [
+                "previous node",
+                "back to the first node",
+                "null",
+                "next node"
+            ],
+            correct: 1
+        },
+        {
+            question: "On a Doubly Circular Linked List, the previous node of the first node points to:",
+            options: [
+                "previous node",
+                "back to the first node",
+                "null",
+                "last node"
+            ],
+            correct: 3
+        },
+        {
+            //question: "The inner loop of a 2D array traversal handles",
+            image: "M6Q13.png",
+            options: [
+                "12345",
+                "5",
+                "4",
+                "54321"
+            ],
+            correct: 0
+        },
+        {
+            question: "A Circular Linked List node stores the address of?",
+            options: [
+                "no node",
+                "next node",
+                "previous node",
+                "next and previous node"
+            ],
+            correct: 1
+        },
+        {
+            question: "The value or information the node holds.",
+            options: [
+                "Pointer",
+                "Data",
+                "Head",
+                "List"
+            ],
+            correct: 1
+        },
+        {
+            question: "You can import the Linked List class with the syntax",
+            options: [
+                "import LinkedList;",
+                "import java.util.LinkedList;",
+                "import java.Lists;",
                 "None of the above"
             ],
             correct: 1
         },
         {
-            question: "Which of these are NOT a component of a loop?",
-            // image: "QUESTION IMAGE",
+            //question: "The inner loop of a 2D array traversal handles",
+            image: "M6Q17.png",
             options: [
-                "Change of State",
-                "Body of the Loop",
-                "Condition",
-                "None of the above"
+                "Integer",
+                "Double",
+                "String",
+                "myMethod()"
             ],
             correct: 3
         },
         {
-            question: "What does the Compound Assignment Operator, x += y, do?",
-            // image: "QUESTION IMAGE",
+            //question: "The inner loop of a 2D array traversal handles",
+            image: "M6Q18.png",
             options: [
-                "Only adds x with y",
-                "Adds x and y and assigns to y",
-                "Adds x and y and assigns to x",
-                "Invalid syntax"
+                "All capitalized primitive data types",
+                "All capitalized, spelled out, primitive data type",
+                "Capitalized first letter,  spelled out, primitive data type",
+                "Capitalized first letter, primitive data type"
             ],
             correct: 2
         },
         {
-            question: "Which of the following are NOT a type of Iterative Structure in Java?",
-            // image: "QUESTION IMAGE",
+            //question: "The inner loop of a 2D array traversal handles",
+            image: "M6Q19.png",
             options: [
-                "for Loop",
-                "while Loop",
-                "do-while Loop",
-                "for-else Loop"
+                "1",
+                "0",
+                "2",
+                "3"
             ],
-            correct: 3
-        },
-        {
-            image: "M3Q5.png",
-            options: ["9", "12", "10", "11"],
             correct: 2
         },
         {
-            image: "M3Q6.png",
-            options: ["hello\" will be printed once", "hello\" will be printed infinitely", "hello\" will be printed 100 times", "hello\" won't be printed"],
-            correct: 1
-        },
-        {
-            image: "M3Q7.png",
-            options: ["hello\" will be printed once", "hello\" will be printed infinitely", "hello\" will be printed 100 times", "hello\" won't be printed"],
-            correct: 1
-        },
-        {
-            image: "M3Q8.png",
-            options: ["hello\" will be printed once", "hello\" will be printed infinitely", "hello\" will be printed 100 times", "hello\" won't be printed"],
+            //question: "The inner loop of a 2D array traversal handles",
+            image: "M6Q20.png",
+            options: [
+                "names = {“Brenda”, “Tommy”};",
+                "names = {“Brent”, “Brenda”, “Tommy”};",
+                "names = {“Shan”, “Tommy” ,“Brenda”};",
+                "names = {“Brenda”};"
+            ],
             correct: 0
-        },
-        {
-            image: "M3Q9.png",
-            options: ["0123456789", "12345678910", "12345678910", "invalid syntax"],
-            correct: 0
-        },
-        {
-            question: "This is used to skip the current iteration and move to the next one",
-            // image: "QUESTION IMAGE",
-            options: ["return", "break", "continue", "None of the above"],
-            correct: 2
-        },
-        {
-            question: "This is used to terminate a loop prematurely",
-            // image: "QUESTION IMAGE",
-            options: ["return", "break", "continue", "None of the above"],
-            correct: 1
-        },
-        {
-            image: "M3Q12.png",
-            options: ["HELLO\" will be printed once", "HELLO\" will be printed infinitely", "HELLO\" will be printed 50 times", "HELLO\" won't be printed"],
-            correct: 2
-        },
-        {
-            image: "M3Q13.png",
-            options: ["Prints even numbers", "Prints odd numbers", "Prints nothing", "Invalid syntax"],
-            correct: 3
-        },
-        {
-            question: "What is NOT a common use case of loops?",
-            // image: "QUESTION IMAGE",
-            options: ["Data processing", "Key generation", "Input validation", "Nested loops"],
-            correct: 1
-        },
-        {
-            image: "M3Q15.png",
-            options: ["0 1 2 3 4", "1 2 3 4 5", "0 1 2 3 4 5", "1 2 3 4 5 6"],
-            correct: 0
-        },
-        {
-            image: "M3Q16.png",
-            options: ["5 4 3 2 1", "5 3 1", "5 3", "Infinite loop"],
-            correct: 1
-        },
-        {
-            image: "M3Q17.png",
-            options: ["11", "9", "10", "Infinite"],
-            correct: 2
-        },
-        {
-            question: "Which of the following produces an infinite loop?",
-            // image: "QUESTION IMAGE",
-            options: [
-                "for (int i = 0; i < 5; i++)",
-                "while (false)",
-                "do {} while (false)",
-                "while (1 == 1)"
-            ],
-            correct: 3
-        },
-        {
-            image: "M3Q19.png",
-            options: ["1 2 3 4 5", "1 2 3 4", "12", "2 3 4 5"],
-            correct: 1
-        },
-        {
-            image: "M3Q20.png",
-            options: ["12345", "1234", "123", "12"],
-            correct: 1
         },
 
     ];

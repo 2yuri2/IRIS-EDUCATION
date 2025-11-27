@@ -31,7 +31,7 @@
         <!-- PUT YOUR IMAGE QUESTION HERE -->
 
             <!-- IMAGE 1 -->
-            <img id="questionImage" class="question-image" src="#" alt="Question Image 1" style="display: none; max-width: 50%; height: auto; text-align: center;">
+            <img id="questionImage" class="question-image" src="#" alt="Question Image 1" style="display: none; max-width: 100%; height: auto; text-align: center;">
             
             <!-- IMAGE 2 -->
             <img id="questionImage" class="question-image" src="#" alt="Question Image 2" style="display: none; max-width: 100%; height: auto;">
@@ -49,17 +49,133 @@
 
 <script>
    const quizData = [
-        { 
-            question: "PUT YOUR QUESTION HERE", 
-            image: "QUESTION IMAGE 1", 
-            options: ["OPTION 1", "OPTION 2", "OPTION 3", "OPTION 4"], 
-            correct: 1 
+        {
+            question: "A programming paradigm that organizes software design around objects rather than functions or logic.",
+            // image: "QUESTION IMAGE",
+            options: [
+                "Object Related Programming",
+                "Object Oriented Programming",
+                "Object Oriented Paradigm",
+                "Object Related Paradigm"
+            ],
+            correct: 1
         },
-        { 
-            question: "PUT YOUR QUESTION HERE", 
-            image: "QUESTION IMAGE 2", 
-            options: ["OPTION 1", "OPTION 2", "OPTION 3", "OPTION 4"], 
-            correct: 0 
+        {
+            question: "Template for creating objects.",
+            // image: "QUESTION IMAGE",
+            options: ["Objects", "Blueprint", "Classes", "Methods"],
+            correct: 2
+        },
+        {
+            question: "An instance of a class. It represents a specific implementation of the class.",
+            // image: "QUESTION IMAGE",
+            options: ["Java Classes", "Java Methods", "Java Objects", "Java Rice"],
+            correct: 2
+        },
+        {
+            question: "What does NOT belong to the 4 pillars of OOP?",
+            // image: "QUESTION IMAGE",
+            options: ["Abstraction", "Encapsulation", "Destruction", "Polymorphism"],
+            correct: 2
+        },
+        {
+            image: "M4Q5.png",
+            options: ["5", "10", "15", "Compilation Error"],
+            correct: 2
+        },
+        {
+            image: "M4Q6.png",
+            options: ["5", "10", "15", "Compilation Error"],
+            correct: 2
+        },
+        {
+            image: "M4Q7.png",
+            options: ["Bark", "d1", "Woof", "Compilation Error"],
+            correct: 2
+        },
+        {
+            image: "M4Q8.png",
+            options: ["0", "20", "NullPointerException", "Compilation Error"],
+            correct: 1
+        },
+        {
+            image: "M4Q9.png",
+            options: ["5 10", "20 30", "20 10", "Compilation Error"],
+            correct: 1
+        },
+        {
+            question: "Concept of hiding complex implementation details of a class and showing only the essential features.",
+            // image: "QUESTION IMAGE",
+            options: ["Abstraction", "Encapsulation", "Instantiation", "Polymorphism"],
+            correct: 0
+        },
+        {
+            question: "Concept of wrapping data(variables) and methods (functions) into a single unit called a class.",
+            // image: "QUESTION IMAGE",
+            options: ["Abstraction", "Encapsulation", "Instantiation", "Polymorphism"],
+            correct: 1
+        },
+        {
+            question: "Mechanism where a new class(child or subclass) inherits the attributes and methods of an existing class(parent or superclass).",
+            // image: "QUESTION IMAGE",
+            options: ["Abstraction", "Encapsulation", "Inheritance", "Polymorphism"],
+            correct: 2
+        },
+        {
+            question: "Means “many forms”, it allows objects of different classes to be treated as objects of a common superclass.",
+            // image: "QUESTION IMAGE",
+            options: ["Abstraction", "Encapsulation", "Inheritance", "Polymorphism"],
+            correct: 3
+        },
+        {
+            question: "Change during runtime",
+            // image: "QUESTION IMAGE",
+            options: ["Method overloading", "Method overriding", "Inheritance", "Abstraction"],
+            correct: 1
+        },
+        {
+            question: "Change during compilation",
+            // image: "QUESTION IMAGE",
+            options: ["Method overloading", "Method overriding", "Inheritance", "Abstraction"],
+            correct: 0
+        },
+        {
+            question: "A technique where a method calls itself to solve a problem. It typically involves a base case and a recursive case.",
+            // image: "QUESTION IMAGE",
+            options: ["Java base", "Java recursion", "Java rice", "Java Keyword"],
+            correct: 1
+        },
+        {
+            image: "M4Q17.png",
+            options: ["Default Constructor", "Parametarized Constructor", "No Constructor", "Merged Constructor"],
+            correct: 1
+        },
+        {
+            image: "M4Q18.png",
+            options: ["Default Constructor", "Parametarized Constructor", "No Constructor", "Merged Constructor"],
+            correct: 0
+        },
+        {
+            question: "A type of class method that uses the name of the object to call the method.",
+            // image: "QUESTION IMAGE",
+            options: [
+                "Instance Methods",
+                "Recursive Methods",
+                "Static Methods",
+                "Void Methods"
+            ],
+            correct: 0
+        },
+        {
+            question: "A type of class method that belong to the class itself and can be called without creating an object.",
+            // image: "QUESTION IMAGE",
+            options: [
+                "Instance Methods",
+                "Recursive Methods",
+                "Static Methods",
+                "Void Methods"
+            ],
+            correct: 2
         }
     ];
 
