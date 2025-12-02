@@ -21,7 +21,7 @@
     Select the correct answer for each question. You have 3 lives to complete the quiz. If you choose the wrong answer or run out of time, you will lose a life. Once all your lives are gone, the quiz will end. Good luck!
 </P>
 
-<a href="STEM_SOC_CHEMISTRY.HTML">GO BACK</a>
+<a href="IRIS_HOMEPAGE.html">GO BACK</a>
 </div>
 
 <div class="quiz-container">
@@ -31,8 +31,8 @@
         <!-- PUT YOUR IMAGE QUESTION HERE -->
 
             <!-- IMAGE 1 -->
-            <img id="questionImage" class="question-image" src="#" alt="Question Image 1" style="display: none; max-width: 50%; height: auto; text-align: center;">
-            
+            <img id="questionImage" class="question-image" src="#" alt="Question Image 1" style="display: none; max-width: 100%; height: auto; text-align: center;">
+
             <!-- IMAGE 2 -->
             <img id="questionImage" class="question-image" src="#" alt="Question Image 2" style="display: none; max-width: 100%; height: auto;">
        
@@ -49,18 +49,181 @@
 
 <script>
    const quizData = [
-        { 
-            question: "PUT YOUR QUESTION HERE", 
-            image: "QUESTION IMAGE 1", 
-            options: ["OPTION 1", "OPTION 2", "OPTION 3", "OPTION 4"], 
-            correct: 1 
+        //M1
+        {
+            question: "These are zero or more statements bound by an open and close curly brace",
+            // image: "QUESTION IMAGE",
+            options: ["Blocks", "Variables", "Statements", "Comments"],
+            correct: 0
         },
-        { 
-            question: "PUT YOUR QUESTION HERE", 
-            image: "QUESTION IMAGE 2", 
-            options: ["OPTION 1", "OPTION 2", "OPTION 3", "OPTION 4"], 
-            correct: 0 
+        {
+            question: "What is the entry point of any Java program?",
+            // image: "QUESTION IMAGE",
+            options: ["Void Method", "Main Method", "Entry Method", "Public Method"],
+            correct: 1
+        },
+        {
+            question: "Which of the following are INVALID Variable names?",
+            // image: "QUESTION IMAGE",
+            options: ["eats", "e4ts", "eat$_", "3at$"],
+            correct: 3
+        },
+        //M2
+        {
+            image: "M2Q10.png",
+            options: ["Weekday", "Midweek", "Weekend", "No output"],
+            correct: 1
+        },
+        {
+            question: "Statements that are organized in such a way that there should be a condition to be evaluated first.",
+            // image: "QUESTION IMAGE",
+            options: [
+                "Sequential Control Structure",
+                "Repetition Control Structure",
+                "Decision Control Structure",
+                "Constant Control Structure"
+            ],
+            correct: 2
+        },
+        {
+            question: "Organized such that statements are executed one after the other in the order of their appearance in the source code.",
+            // image: "QUESTION IMAGE",
+            options: [
+                "Sequential Control Structure",
+                "Repetition Control Structure",
+                "Decision Control Structure",
+                "Constant Control Structure"
+            ],
+            correct: 0
+        },
+        //M3
+        {
+            image: "M3Q9.png",
+            options: ["0123456789", "12345678910", "12345678910", "invalid syntax"],
+            correct: 0
+        },
+        {
+            question: "This is used to skip the current iteration and move to the next one",
+            // image: "QUESTION IMAGE",
+            options: ["return", "break", "continue", "None of the above"],
+            correct: 2
+        },
+        //M4
+        {
+            question: "This is used to terminate a loop prematurely",
+            // image: "QUESTION IMAGE",
+            options: ["return", "break", "continue", "None of the above"],
+            correct: 1
+        },
+        {
+            image: "M4Q5.png",
+            options: ["5", "10", "15", "Compilation Error"],
+            correct: 2
+        },
+        {
+            image: "M4Q6.png",
+            options: ["5", "10", "15", "Compilation Error"],
+            correct: 2
+        },
+        {
+            image: "M4Q7.png",
+            options: ["Bark", "d1", "Woof", "Compilation Error"],
+            correct: 2
+        },
+        //M5
+        {
+            question: "A nested loop is needed to",
+            options: [
+                "Access a one-dimensional array",
+                "Modify integers",
+                "Access all elements of a 2D array",
+                "Print a single value"
+            ],
+            correct: 2
+        },
+        {
+            question: "int[] data = new int[5] creates",
+            options: [
+                "Five empty elements",
+                "No elements",
+                "Five elements with random values",
+                "An array that resizes automatically"
+            ],
+            correct: 0
+        },
+        {
+            question: "data[1] = 10 performs",
+            options: [
+                "Deletion",
+                "Index shift",
+                "Element modification",
+                "Array resizing"
+            ],
+            correct: 2
+        },
+        //M6
+        {
+            question: "A Circular Linked List node stores the address of?",
+            options: [
+                "no node",
+                "next node",
+                "previous node",
+                "next and previous node"
+            ],
+            correct: 1
+        },
+        {
+            question: "The value or information the node holds.",
+            options: [
+                "Pointer",
+                "Data",
+                "Head",
+                "List"
+            ],
+            correct: 1
+        },
+        {
+            question: "You can import the Linked List class with the syntax",
+            options: [
+                "import LinkedList;",
+                "import java.util.LinkedList;",
+                "import java.Lists;",
+                "None of the above"
+            ],
+            correct: 1
+        },
+        //M7
+        {
+            question: "ArithmeticException belongs to",
+            options: [
+                "Error class",
+                "RuntimeException class",
+                "IOException class",
+                "String class"
+            ],
+            correct: 1
+        },
+        {
+            question: "A custom exception class is created by",
+            options: [
+                "Implementing Runnable",
+                "Extending java.lang.Exception",
+                "Extending Object",
+                "Importing java.error"
+            ],
+            correct: 1
+        },
+        {
+            question: "throw keyword",
+            options: [
+                "Declares an exception",
+                "Creates and triggers an exception",
+                "Ends the program",
+                "Imports libraries"
+            ],
+            correct: 1
         }
+
     ];
 
     const livesEl = document.getElementById('lives');
